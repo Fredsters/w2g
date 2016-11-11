@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
-var schema = mongoose.Schema;
+var Schema = mongoose.Schema;
+var ObjectId = Schema.ObjectId;
 
 var householdSchema = new Schema({
     name: String,
@@ -11,4 +12,5 @@ var householdSchema = new Schema({
     }]
 });
 
-var household = mongoose.model('Household', householdSchema);
+module.exports = mongoose.model('Household', householdSchema);
+
