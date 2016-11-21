@@ -14,6 +14,8 @@ var http_1 = require('@angular/http');
 var app_routing_module_1 = require('./app-routing.module');
 var app_component_1 = require('./app.component');
 var todo_component_1 = require('./todo/todo.component');
+var list_component_1 = require('./list/list.component');
+var selector_component_1 = require('./selector/selector.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -23,7 +25,7 @@ var AppModule = (function () {
                 app_routing_module_1.AppRoutingModule,
                 http_1.HttpModule],
             declarations: [app_component_1.AppComponent,
-                todo_component_1.TodoComponent],
+                todo_component_1.TodoComponent, list_component_1.ListComponent, selector_component_1.SelectorComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
