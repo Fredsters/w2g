@@ -5,9 +5,9 @@ import {HttpModule}    from '@angular/http';
 import {AppRoutingModule} from './app-routing.module';
 
 import {AppComponent}   from './app.component';
-import {TodoComponent}   from './todo/todo.component';
-import {ListComponent}   from './list/list.component';
-import {SelectorComponent}   from './selector/selector.component';
+import {TodoComponent}   from './components/todo/todo.component';
+import {ListComponent}   from './components/todo/list.component';
+import {SelectorComponent}   from './components/selector/selector.component';
 
 @NgModule({
     imports: [BrowserModule,
