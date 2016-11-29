@@ -1,4 +1,4 @@
-{"todos":[
+[
   {"type":"todo", "text":"kill the boss", "price":"2.34", "date": "23.23.23"},
   {"type":"todo", "text":"ask mother ...", "date": "23.23.23"},
   {"type":"purchase", "text":"brot", "price" : "23,3", "date": "23.23.23"},
@@ -8,4 +8,4 @@
   {"type":"todo", "text":"kill the boss", "price":"2.34", "date": "23.23.23"},
   {"type":"todo", "text":"ask mother ...", "date": "23.23.23"},
   {"type":"purchase", "text":"brot", "price" : "23,3", "date": "23.23.23"}
-]}
+]

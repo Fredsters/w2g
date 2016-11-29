@@ -8,6 +8,7 @@ import {AppComponent}   from './app.component';
 import {TodoComponent}   from './components/todo/todo.component';
 import {ListComponent}   from './components/todo/list.component';
 import {SelectorComponent}   from './components/selector/selector.component';
+import {TodoService} from "./services/todo.service";
 
 @NgModule({
     imports: [BrowserModule,
@@ -15,7 +16,8 @@ import {SelectorComponent}   from './components/selector/selector.component';
         HttpModule],
     declarations: [AppComponent,
         TodoComponent, ListComponent, SelectorComponent],
-    bootstrap: [AppComponent]
+    bootstrap: [AppComponent],
+    providers: [TodoService]
 })
 
 
